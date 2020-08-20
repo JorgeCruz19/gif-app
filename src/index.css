@@ -1,13 +1,66 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #212121;
+	color: white;
+	text-align: center;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+	font-size: 2.5rem;
+	margin: 1rem 0;
+}
+.form {
+	margin-bottom: 20px;
+}
+.form-control {
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-size: 1.23rem;
+	border-radius: 10px;
+	outline: 0;
+	overflow: hidden;
+	padding: 0.5rem 1rem;
+	width: 80%;
+}
+.card-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	align-content: center;
+	border: 1px solid grey;
+	border-radius: 6px;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+}
+.card p {
+	padding: 5px;
+	text-align: center;
+}
+.card img {
+	max-height: 150px;
+}
+.gif-title {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: left;
 }
